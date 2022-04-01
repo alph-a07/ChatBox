@@ -10,7 +10,7 @@
 <h4>Sign Up Screen</h4>
 <img src="https://github.com/alph-a07/ChatBox/blob/master/Media/signup_screen.jpg" width="270" height="585">
 <h4>Login using phone</h4>
-<img src="https://github.com/alph-a07/ChatBox/blob/master/Media/login_using_phone.jpg" width="270" height="585">
+<img src="https://github.com/alph-a07/ChatBox/blob/master/Media/login_using_phone1.jpg" width="270" height="585">
 
 
 
