@@ -20,7 +20,7 @@
 - Group chatting
 - Voice and video calling
 
-### Color References
+### Color References 🏳️‍🌈
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | Citrine | ![#DFC201](https://via.placeholder.com/10/DFC201?text=+) #DFC201 |
