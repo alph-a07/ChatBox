@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ChatBox" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryVariant">#00000000</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="actionBarSize">50dip</item>
+    </style>
+
+    <style name="customNavigationTheme.NavigationDrawer" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorControlHighlight">#4DFFFFFF</item>
+        <item name="colorPrimary">#050005</item>
+    </style>
+
+    <style name="dialogTheme" parent="@style/Theme.AppCompat.Dialog" >
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DialogAnimation">
+    <item name="android:windowEnterAnimation">@anim/slide_in_right</item>
+    <item name="android:windowExitAnimation">@anim/slide_out_left</item>
+    </style>
+
+    <style name="selectItemStyle">
+        <item name="selectableItemBackground">@color/black</item>
+    </style>
+
+    <style name="customTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/mustard</item>
+    </style>
+
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">@color/mustard</item>
+    </style>
+</resources>

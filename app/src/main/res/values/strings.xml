@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ChatBox</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="profile_picture">Profile  Picture</string>
+    <string name="chats">Chats</string>
+    <string name="calls">Calls</string>
+    <string name="settings">Settings</string>
+
+    <string name="facebook_app_id">252563650211702</string>
+    <string name="facebook_client_token">70ea20adfff88476d090a29c9220ffa8</string>
+
+
+    <string name="empty_string" />
+    <string name="client_id">120417285816-uqp9a9cv17t9nf5ss1836huljkkf7he0.apps.googleusercontent.com</string>
+    <string name="github"><a href="https://github.com/alph-a07/Android-App-Development/tree/master/ChatBox">Github</a></string>
+    <string name="click_here"><a href="">Click Here</a></string>
+    <string name="reset"><u>Reset</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="requests">Requests</string>
+</resources>

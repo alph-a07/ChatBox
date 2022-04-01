@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/welcome_title1" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title2" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title3" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title4" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title5" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title6" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title7" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title8" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title9" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title10" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title11" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title12" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title13" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title14" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title15" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title16" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title17" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title18" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title19" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title20" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title21" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title22" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title23" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title24" android:duration="50" />
+    <item android:drawable="@drawable/welcome_title25" android:duration="50" />
+</animation-list>

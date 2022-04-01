@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="https://schemas.android.com/apk/res/android">
+    <external-files-path name="media" android:path="ChatBox/" path="/Pictures"/>
+</paths>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcome_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeScreenActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/welcome_bird"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/welcome_title"
+            android:layout_width="300dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/welcome_bird"
+            android:layout_centerHorizontal="true"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/welcome_subtitle"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/welcome_title"
+            android:layout_centerHorizontal="true"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/welcome_google"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/welcome_login"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/welcome_btn_bg"
+            android:clickable="true"
+            android:color="?android:colorControlHighlight"
+            android:focusable="true"
+            android:fontFamily="@font/baloo_bhai"
+            android:gravity="center"
+            android:text="Log In"
+            android:textColor="@color/teal1"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/welcome_signup"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/welcome_btn_bg"
+            android:clickable="true"
+            android:color="?android:colorActivatedHighlight"
+            android:focusable="true"
+            android:fontFamily="@font/baloo_bhai"
+            android:gravity="center"
+            android:text="Sign Up"
+            android:textColor="@color/teal1"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/welcome_google"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_above="@id/welcome_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/welcome_btn_bg"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        tools:ignore="TouchTargetSizeCheck">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/google_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/baloo_bhai"
+            android:gravity="center_vertical"
+            android:text="Continue Using Google"
+            android:textColor="@color/teal1"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/welcome_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_above="@id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/welcome_btn_bg"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        tools:ignore="TouchTargetSizeCheck">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/phone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/baloo_bhai"
+            android:gravity="center_vertical"
+            android:text="Continue Using Phone"
+            android:textColor="@color/teal1"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="ChatBox © 2021-22 All rights reserved."
+        android:textColor="#c5c5c5" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:padding="1dp"
+            app:srcCompat="@drawable/github" />
+
+        <TextView
+            android:id="@+id/tv_github"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/github"
+            android:textColor="#d9d9d9"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+</RelativeLayout>

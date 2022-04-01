@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:backgroundTint="#00FFFFFF"
+    android:backgroundTintMode="screen"
+    android:orientation="vertical"
+    tools:context=".SignUp2Activity">
+
+    <TextView
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scroll_view"
+        android:layout_alignEnd="@id/scroll_view"
+        android:layout_marginTop="5dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingStart="5dp"
+        android:text="@string/reset"
+        android:textColor="@color/hint_color"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:indeterminate="true"
+        android:indeterminateOnly="false"
+        android:theme="@style/ProgressBarStyle"
+        android:visibility="gone"
+        tools:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/layout_bg">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="240dp"
+                android:layout_height="82dp"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                app:srcCompat="@drawable/chatbox_logo" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView5"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/baloo_bhai"
+                android:gravity="center"
+                android:text="Continue with Phone"
+                android:textColor="@color/teal1"
+                android:textSize="24sp" />
+
+            <RelativeLayout
+                android:id="@+id/relative1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textView7"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp">
+
+                <ImageView
+                    android:id="@+id/btnVerify"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/iv_ripple"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:padding="3dp"
+                    android:src="@drawable/send_otp"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+                <EditText
+                    android:id="@+id/editTextPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_toStartOf="@id/btnVerify"
+                    android:layout_toEndOf="@id/ccp"
+                    android:background="@drawable/edt_background"
+                    android:ems="10"
+                    android:hint="XXXXX XXXXX"
+                    android:inputType="phone"
+                    android:paddingLeft="8dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/hint_color"
+                    android:textCursorDrawable="@null"
+                    android:cursorVisible="true"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <com.hbb20.CountryCodePicker
+                    android:id="@+id/ccp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edt_background"
+                    app:ccpDialog_backgroundColor="@color/trans_white"
+                    app:ccpDialog_fastScroller_bubbleColor="#050005"
+                    app:ccpDialog_fastScroller_handleColor="#050005"
+                    app:ccpDialog_searchEditTextTint="@color/hint_color"
+                    app:ccpDialog_showTitle="false"
+                    app:ccpDialog_textColor="#050005"
+                    app:ccp_arrowColor="#050005"
+                    app:ccp_autoDetectCountry="true"
+                    app:ccp_contentColor="#050005"
+                    app:ccp_rememberLastSelection="true"
+                    app:ccp_showNameCode="false">
+
+                </com.hbb20.CountryCodePicker>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relative1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:visibility="gone"
+                tools:visibility="gone">
+
+                <EditText
+                    android:id="@+id/editTextOTP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/edt_background"
+                    android:clickable="true"
+                    android:ems="5"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:hint="Enter OTP"
+                    android:inputType="number"
+                    android:paddingStart="8dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_grey"
+                    android:textCursorDrawable="@null"
+                    android:visibility="visible"
+                    tools:ignore="TouchTargetSizeCheck"
+                    android:cursorVisible="true"
+                    tools:visibility="visible" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_getOTP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="8dp"
+                    android:layout_toEndOf="@id/editTextOTP"
+                    android:background="@drawable/btn_bg"
+                    android:tag="verifyOTP"
+                    android:text="Verify OTP"
+                    android:textAllCaps="false"
+                    android:textColor="@color/dark_blue"
+                    android:visibility="visible"
+                    tools:ignore="TouchTargetSizeCheck"
+                    tools:visibility="visible" />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/signup2_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relative2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/edt_background"
+                android:ems="50"
+                android:hapticFeedbackEnabled="true"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:paddingStart="8dp"
+                android:textColor="@color/black"
+                android:textColorHint="#7E7E7E"
+                android:textCursorDrawable="@color/black"
+                android:visibility="gone"
+                tools:ignore="TouchTargetSizeCheck"
+                tools:visibility="gone" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSignUp2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/signup2_name"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:paddingStart="50dp"
+                android:paddingEnd="50dp"
+                android:text="Sign Up"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:visibility="gone"
+                tools:ignore="TouchTargetSizeCheck"
+                tools:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnSignUp2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="Want to use e-mail?"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/signup2_to_signin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:background="@drawable/tv_ripple"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/click_here"
+                    android:textColorLink="@color/link_blue"
+                    android:textSize="16sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

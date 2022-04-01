@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--specify color of ripple animation-->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#999999">
+
+    <!--Specifying shape and color of background-->
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="#D9CAEFED" />
+            <corners android:radius="15dp" />
+        </shape>
+    </item>
+</ripple>
