@@ -12,8 +12,14 @@
 - Choose avatar or upload your own profile photo
 - Real time one to one chatting (text messages)
 
+### 🧣 Limitation
+
+- No data privacy yet
+- Don't share or upload any personal data
+
 ### Coming 🔜
 
+- User data privacy and end to end encryption
 - Collecting more personal information to build up a solid user profile
 - Improvements in one to one chatting (voice messages,stickers,photos and documents)
 - Limiting chatting with only ones you want, introducing friend request feature
