@@ -4,66 +4,46 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_marginTop="2dp"
-    android:layout_marginBottom="2dp">
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
         android:background="@drawable/received_bg"
-        android:maxWidth="300dp"
-        android:maxHeight="400dp"
-        android:minHeight="30dp"
-        android:minWidth="50dp">
+        android:minWidth="50dp"
+        android:minHeight="30dp">
 
         <TextView
             android:id="@+id/received_msg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
             android:inputType="textLongMessage|textMultiLine"
             android:maxWidth="270dp"
             android:maxHeight="370dp"
             android:text="This is a received message."
             android:textColor="@color/black"
             android:textSize="16sp"
-            app:layout_constraintStart_toStartOf="@+id/guideline7"
-            app:layout_constraintTop_toTopOf="@+id/guideline8"
             tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
             android:id="@+id/received_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:layout_marginEnd="8dp"
+            android:layout_below="@id/received_msg"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@id/received_msg"
             android:inputType="time"
-            android:text="00:00 AM"
+            android:text="00:00"
             android:textColor="#595959"
             android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@+id/received_msg"
-            app:layout_constraintTop_toBottomOf="@+id/received_msg"
-            app:layout_constraintVertical_bias="1.0"
             tools:ignore="TouchTargetSizeCheck" />
 
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintGuide_begin="10dp" />
-
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintGuide_begin="5dp" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
 </RelativeLayout>

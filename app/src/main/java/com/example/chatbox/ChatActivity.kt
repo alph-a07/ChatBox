@@ -48,8 +48,10 @@ class ChatActivity : AppCompatActivity() {
         val profile = findViewById<CircleImageView>(R.id.chat_profile)
 
         name.text = receiverName
-        Picasso.get().load(Uri.parse(receiverProfile))
-            .into(profile)
+        if (receiverProfile == "")
+            profile.setImageResource(R.drawable.basic_user)
+        else
+            Picasso.get().load(Uri.parse(receiverProfile)).into(profile)
 
         val list = ArrayList<Message>()
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView1)
@@ -57,7 +59,8 @@ class ChatActivity : AppCompatActivity() {
 
         recyclerView.adapter = adapter
         val layoutManager = LinearLayoutManager(this)
-        layoutManager.stackFromEnd = true            // To scroll to the latest message when chat is opened
+        layoutManager.stackFromEnd =
+            true            // To scroll to the latest message when chat is opened
         recyclerView.layoutManager = layoutManager
 
         val edtChat = findViewById<EditText>(R.id.chat_msg_edt)

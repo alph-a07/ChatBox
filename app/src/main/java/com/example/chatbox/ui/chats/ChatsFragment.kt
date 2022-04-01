@@ -28,7 +28,7 @@ class ChatsFragment : Fragment() {
     // onDestroyView.
     private val binding get() = _binding!!
     val list = ArrayList<User>()
-    val adapter = UserAdapter(list, context)
+
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -38,6 +38,7 @@ class ChatsFragment : Fragment() {
 
         val db = Firebase.database
         val auth = FirebaseAuth.getInstance()
+        val adapter = UserAdapter(list, context) // initialize in onCreateView to avoid NPE
 
         _binding = FragmentChatsBinding.inflate(inflater, container, false)
         val root: View = binding.root

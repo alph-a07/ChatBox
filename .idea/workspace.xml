@@ -13,13 +13,49 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f990c281-5ddc-41f5-8a0d-6305f7092ef5" name="Default Changelist" comment="Commit : 30-03-22&#10;--&gt; Email-password signup/login ✅&#10;--&gt; Login using phone ✅&#10;--&gt; Login using google ✅&#10;--&gt; Profile photo updating ✅&#10;--&gt; One to one chatting ✅&#10;--&gt; UI blending ⏩&#10;--&gt; Personal information, sign out and more settings ⏩&#10;--&gt; Voice message ⏩&#10;--&gt; Stickers ⏩&#10;--&gt; Sharing files ⏩&#10;--&gt; Limiting chats to friends only with friend request feature ⏩&#10;--&gt; One to one calling ⏩&#10;--&gt; Group chat/calls ⏩" />
+    <list default="true" id="f990c281-5ddc-41f5-8a0d-6305f7092ef5" name="Default Changelist" comment="Commit : 30-03-22&#10;--&gt; Email-password signup/login ✅&#10;--&gt; Login using phone ✅&#10;--&gt; Login using google ✅&#10;--&gt; Profile photo updating ✅&#10;--&gt; One to one chatting ✅&#10;--&gt; UI blending ⏩&#10;--&gt; Personal information, sign out and more settings ⏩&#10;--&gt; Voice message ⏩&#10;--&gt; Stickers ⏩&#10;--&gt; Sharing files ⏩&#10;--&gt; Limiting chats to friends only with friend request feature ⏩&#10;--&gt; One to one calling ⏩&#10;--&gt; Group chat/calls ⏩">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/chat_camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/chatbar_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/msgbar_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/chatbox/ChatActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/chatbox/ChatActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/chatbox/ui/chats/ChatsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/chatbox/ui/chats/ChatsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/menu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/received_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/received_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/sent_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sent_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/video_call.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/video_call.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/voice_call.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/voice_call.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-v23/sample_users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-v23/sample_users.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/sample_received.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/sample_received.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/sample_sent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/sample_sent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/sample_users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/sample_users.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\itsje\.android\avd\OnePlus_Nord_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[da702b73]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -66,7 +102,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -97,6 +133,8 @@
     <property name="android-custom-viewC:/Users/itsje/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.4.0/51035a8f6342c20d4d8f242d100e6f25e0c271ac/material-1.4.0-sources.jar!/com/google/android/material/navigation/NavigationView.java_SELECTED" value="NavigationView" />
     <property name="android-custom-viewC:/Users/itsje/AppData/Local/Android/Sdk/sources/android-31/android/view/View.java_SELECTED" value="View" />
     <property name="android-custom-viewC:/Users/itsje/AppData/Local/Android/Sdk/sources/android-31/android/view/View.java_View_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewC:/Users/itsje/AppData/Local/Android/Sdk/sources/android-31/android/widget/LinearLayout.java_LinearLayout_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewC:/Users/itsje/AppData/Local/Android/Sdk/sources/android-31/android/widget/LinearLayout.java_SELECTED" value="LinearLayout" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
@@ -112,8 +150,8 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Apps\ChatBox\app\src\main\res\drawable" />
-      <recent name="D:\Apps\ChatBox\app\src\main\assets" />
       <recent name="D:\Apps\ChatBox\app\src\main\res" />
+      <recent name="D:\Apps\ChatBox\app\src\main\assets" />
       <recent name="D:\Apps\ChatBox\app\src\main\res\layout" />
       <recent name="D:\Apps\ChatBox\app\src\main\res\mipmap-anydpi-v26" />
     </key>

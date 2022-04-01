@@ -7,7 +7,7 @@
         <entry key="..\:/Apps/ChatBox/app/src/main/res/drawable/btn_bg.xml" value="0.2125" />
         <entry key="..\:/Apps/ChatBox/app/src/main/res/drawable/btn_layout.xml" value="0.290625" />
         <entry key="..\:/Apps/ChatBox/app/src/main/res/drawable/cardview_layout.xml" value="0.16" />
-        <entry key="..\:/Apps/ChatBox/app/src/main/res/drawable/chatbar_bg.xml" value="0.290625" />
+        <entry key="..\:/Apps/ChatBox/app/src/main/res/drawable/chatbar_bg.xml" value="0.1835" />
         <entry key="..\:/Apps/ChatBox/app/src/main/res/drawable/click_ripple.xml" value="0.208" />
         <entry key="..\:/Apps/ChatBox/app/src/main/res/drawable/drawer_list_selector.xml" value="0.290625" />
         <entry key="..\:/Apps/ChatBox/app/src/main/res/drawable/edt_background.xml" value="0.2125" />
@@ -16,10 +16,11 @@
         <entry key="..\:/Apps/ChatBox/app/src/main/res/drawable/iv_ripple.xml" value="0.208" />
         <entry key="..\:/Apps/ChatBox/app/src/main/res/drawable/layout_bg.xml" value="0.2125" />
         <entry key="..\:/Apps/ChatBox/app/src/main/res/drawable/light_gray_color.xml" value="0.290625" />
+        <entry key="..\:/Apps/ChatBox/app/src/main/res/drawable/msgbar_bg.xml" value="0.221" />
         <entry key="..\:/Apps/ChatBox/app/src/main/res/drawable/otp_btn_layout.xml" value="0.17135416666666667" />
         <entry key="..\:/Apps/ChatBox/app/src/main/res/drawable/otp_layout.xml" value="0.290625" />
         <entry key="..\:/Apps/ChatBox/app/src/main/res/drawable/push_down_in.xml" value="0.16" />
-        <entry key="..\:/Apps/ChatBox/app/src/main/res/drawable/received_bg.xml" value="0.290625" />
+        <entry key="..\:/Apps/ChatBox/app/src/main/res/drawable/received_bg.xml" value="0.221" />
         <entry key="..\:/Apps/ChatBox/app/src/main/res/drawable/red_color.xml" value="0.290625" />
         <entry key="..\:/Apps/ChatBox/app/src/main/res/drawable/sent_bg.xml" value="0.16" />
         <entry key="..\:/Apps/ChatBox/app/src/main/res/drawable/tv_ripple.xml" value="0.15" />
