@@ -3,7 +3,7 @@
 - It is under development and open for testing as an individual project.<br>
 - All your suggestions and feedbacks are welcomed and will be helpful making <b>ChatBox</b> better.
 
-### Features📱
+### 📱 Features
 
 - A well-contrast dark UI
 - Create account using e-mail 
@@ -34,7 +34,7 @@
 | Persian Green | ![#00A398](https://via.placeholder.com/10/00A398?text=+) #00A398 |
 | Water | ![#CAEFED](https://via.placeholder.com/10/CAEFED?text=+) #CAEFED |
 
-### Tools ⚒️
+### ⚒️ Tools 
 
 <a href="https://developer.android.com/studio">
   <img src="https://img.shields.io/badge/IDE-Android%20Studio-eaff00?style=flat&logo=android"> </a> 
@@ -47,7 +47,7 @@
 <a href="https://www.canva.com/">
   <img src="https://img.shields.io/badge/Design-Canva-6bfaff?style=flat&logo=canva"> </a> 
 
-### Screenshots 🖼️
+### 🖼️ Screenshots 
 
 <span>
 <img src="https://github.com/alph-a07/ChatBox/blob/master/Media/splash_screen.gif" width="270" height="585"> &nbsp; 
